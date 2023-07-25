@@ -1,0 +1,49 @@
+:root {
+  --primary-brand: #4d5ae5;
+  --pressed-state: #404bbf;
+  --dark: #2e2f42;
+  --success: #31d0aa;
+  --text: #434455;
+  --subtle-text: #8e8f99;
+  --acent: #e7e9fc;
+  --light: #f4f4fd;
+  --modal-overlay: #2e2f42;
+  --hero-background: #2e2f42;
+  --white-background: #ffffff;
+  --modal-background: #fcfcfc;
+  --primary-font: 'Roboto', sans-serif;
+  --logo-font: 'Raleway', sans-serif;
+}
+
+body {
+  font-family: var(--primary-font);
+  color: var(--text);
+}
+ul {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.logo-light {
+  font-family: var(--logo-font);
+  color: var(--dark);
+}
+.logo-dark {
+  font-family: var(--logo-font);
+  color: var(--light);
+}
+.logo-span {
+  color: var(--primary-brand);
+}
+
+.header {
+  color: var(--white-background);
+}
