@@ -1,16 +1,16 @@
 :root {
-  --primary-brand: #4d5ae5;
-  --pressed-state: #404bbf;
-  --dark: #2e2f42;
-  --success: #31d0aa;
-  --text: #434455;
-  --subtle-text: #8e8f99;
-  --acent: #e7e9fc;
-  --light: #f4f4fd;
-  --modal-overlay: #2e2f42;
-  --hero-background: #2e2f42;
-  --white-background: #ffffff;
-  --modal-background: #fcfcfc;
+  --primary-brand: #4d5ae5; /* Iris */
+  --pressed-state: #404bbf; /* OCEAN */
+  --dark: #2e2f42; /* Navyblue */
+  --success: #31d0aa; /* GREEN */
+  --text: #434455; /* SLATE */
+  --subtle-text: #8e8f99; /* LIGHT SLATE */
+  --acent: #e7e9fc; /* cornflower */
+  --light: #f4f4fd; /* CLOUD */
+  --modal-overlay: #2e2f42; /* NAVY BLUE modal */
+  --hero-background: #2e2f42; /* GREY */
+  --white-background: #ffffff; /* WHITE */
+  --modal-background: #fcfcfc; /* Dairy */
   --primary-font: 'Roboto', sans-serif;
   --logo-font: 'Raleway', sans-serif;
 }
@@ -45,5 +45,31 @@ ul {
 }
 
 .header {
-  color: var(--white-background);
+  background-color: var(--white-background);
+}
+.nav-list-content {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--dark);
+}
+.address-list-content {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--text);
+}
+
+.footer {
+  background-color: var(--dark);
+}
+.footer-text {
+  width: 264px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--light);
 }
