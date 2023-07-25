@@ -18,8 +18,33 @@
 body {
   font-family: var(--primary-font);
   color: var(--text);
+  background-color: var(--white-background);
 }
-ul {
+.body-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.h1-text {
+  font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 107.143% */
+  letter-spacing: 1.12px;
+}
+.h2-text {
+}
+.h3-text {
+}
+.button-text {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+}
+.list {
   list-style: none;
 }
 .link {
@@ -27,49 +52,61 @@ ul {
 }
 
 .logo {
+  font-family: var(--logo-font);
+  font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  color: var(--primary-brand);
 }
 .logo-light {
-  font-family: var(--logo-font);
-  color: var(--dark);
-}
-.logo-dark {
-  font-family: var(--logo-font);
   color: var(--light);
 }
-.logo-span {
-  color: var(--primary-brand);
+.logo-dark {
+  color: var(--dark);
 }
 
 .header {
   background-color: var(--white-background);
 }
 .nav-list-content {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
   color: var(--dark);
+  font-weight: 500;
+}
+.nav-list-content:hover,
+.nav-list-content:focus {
+  color: var(--pressed-state);
 }
 .address-list-content {
-  font-size: 16px;
   font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
+  font-style: normal;
   color: var(--text);
+}
+.address-list-content:hover,
+.address-list-content:focus {
+  color: var(--pressed-state);
 }
 
 .footer {
+  font-weight: 500;
   background-color: var(--dark);
 }
 .footer-text {
   width: 264px;
-  font-size: 16px;
   font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
   color: var(--light);
+}
+.herro {
+  background-color: var(--hero-background);
+}
+.herro-title {
+  width: 496px;
+  color: var(--white-background);
+}
+.herro-button {
+  border-radius: 4px;
+  background: var(--primary-brand);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: var(--white-background);
 }
