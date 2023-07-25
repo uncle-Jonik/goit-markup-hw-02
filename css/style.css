@@ -26,19 +26,26 @@ body {
   letter-spacing: 0.32px;
 }
 .h1-text {
-  font-family: Roboto;
   font-size: 56px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 60px; /* 107.143% */
+  line-height: 1.07;
   letter-spacing: 1.12px;
 }
 .h2-text {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
 }
 .h3-text {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
 }
 .button-text {
-  font-family: Roboto;
+  font-family: var(--primary-font);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -95,7 +102,6 @@ body {
   background-color: var(--dark);
 }
 .footer-text {
-  width: 264px;
   font-weight: 400;
   color: var(--light);
 }
@@ -103,12 +109,30 @@ body {
   background-color: var(--hero-background);
 }
 .herro-title {
-  width: 496px;
   color: var(--white-background);
+  text-align: center;
 }
 .herro-button {
-  border-radius: 4px;
-  background: var(--primary-brand);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background-color: var(--primary-brand);
   color: var(--white-background);
+  cursor: pointer;
+}
+.herro-button:hover,
+.herro-button:focus {
+  background-color: var(--pressed-state);
+}
+
+.benefits-list-title {
+  color: var(--dark);
+}
+
+.product-section-title {
+  color: var(--dark);
+}
+
+.team-title {
+  color: var(--dark);
+}
+.team-list-title {
+  color: var(--dark);
 }
