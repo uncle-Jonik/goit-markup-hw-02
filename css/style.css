@@ -78,9 +78,11 @@ body {
 .nav-list-content:focus {
   color: var(--pressed-state);
 }
+.header-address {
+  font-style: normal;
+}
 .address-list-content {
   font-weight: 400;
-  font-style: normal;
   color: var(--text);
 }
 .address-list-content:hover,
